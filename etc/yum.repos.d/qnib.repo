@@ -1,0 +1,13 @@
+[qnib]
+name=QNIBInc Repository
+failovermethod=priority
+baseurl=http://repo.qnib.org/rhel/
+enabled=1
+gpgcheck=0
+
+[qnib-pip]
+name=QNIBInc PIP-Repository
+failovermethod=priority
+baseurl=http://repo.qnib.org/pip/
+enabled=1
+gpgcheck=0
